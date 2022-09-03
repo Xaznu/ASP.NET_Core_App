@@ -71,7 +71,7 @@ namespace Evento.Core.Domain
                 seating++;
             }
         }
-
+        
         public void PurchaseTickets(User user, int amount)
         {
             if (AvailableTickets.Count() < amount)
